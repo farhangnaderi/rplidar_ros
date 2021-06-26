@@ -56,7 +56,7 @@ RPlidarNode::RPlidarNode(const std::string & name, const rclcpp::NodeOptions & o
   tcp_ip_("192.168.0.7"),
   tcp_port_(20108),
   serial_port_("/dev/ttyUSB0"),
-  serial_baudrate_(115200),
+  serial_baudrate_(256000),
   frame_id_("laser_frame"),
   inverted_(false),
   angle_compensate_(true),
