@@ -60,7 +60,7 @@ RPlidarNode::RPlidarNode(const std::string & name, const rclcpp::NodeOptions & o
   frame_id_("laser_frame"),
   inverted_(false),
   angle_compensate_(true),
-  max_distance_(8.0),
+  max_distance_(20.0),
   scan_mode_(""),
   angle_compensate_multiple_(1)  // Angle compensate at per 1 degree
 {
